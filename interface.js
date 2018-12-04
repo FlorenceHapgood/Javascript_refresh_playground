@@ -6,4 +6,9 @@ $('#Dion').click(function(){
   $('#DionQuote').text("He does like to shop Cher. And the man can dress.")
 })
 
-document.getElementById("Cristian").addEventListener("click", function() { document.getElementById("CristianQuote").innerHTML = "Nice Stems" })
+document.getElementById("Cristian").addEventListener("click", quote)
+
+
+function quote(){
+  document.getElementById("CristianQuote").innerHTML = "Nice Stems"
+}
